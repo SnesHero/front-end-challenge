@@ -1,0 +1,143 @@
+{
+  "clinics": [
+    {
+      "nome": "NOME",
+      "cpf": "CPF",
+      "capital": "CAPITAL",
+      "id": 4
+    },
+    {
+      "nome": "yoshi",
+      "CPF": "99999999909",
+      "Capital": "100000",
+      "Endereco": "rua do yoshi",
+      "id": 5
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 6
+    },
+    {
+      "nome": "ultimo teste",
+      "CPF": "11111",
+      "Capital": "22222",
+      "Endereco": "end",
+      "id": 7
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 8
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 9
+    },
+    {
+      "nome": "camila",
+      "CPF": "111111",
+      "Capital": "22222",
+      "Endereco": "endereco da camila",
+      "id": 10
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 11
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 12
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 13
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 14
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 15
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 16
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 17
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 18
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 19
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 20
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 21
+    },
+    {
+      "nome": "lucas",
+      "CPF": "111111",
+      "Capital": "2222222",
+      "Endereco": "casa do caralho",
+      "id": 22
+    },
+    {
+      "nome": "",
+      "CPF": "",
+      "Capital": "",
+      "Endereco": "",
+      "id": 23
+    }
+  ]
+}

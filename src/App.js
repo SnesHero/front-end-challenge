@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Consulta } from "./Consulta";
+import Form from "./Form";
+import docimg from "./imgs/docimg.jpg";
+import drMario from "./imgs/drMario.png";
+import { useState } from "react";
+import { Button, Typography } from "@mui/material";
 
 function App() {
+  const [showHome, setShowHome] = useState(true);
+
+  const handleClick = () => {
+    setShowHome(false);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {showHome ? (
+        <div className="HomePage" >
+          <Typography variant="h2" color="white">Michael Clínicas</Typography>
+          <img className="HomeImage" src={drMario} alt="" />
+          
+          <p></p>
+          <Button variant="contained" color="success" onClick={handleClick}>
+          <Typography variant="h4" color="white">Consultar Cadastros</Typography>
+          </Button>
+        </div>
+      ) : (
+        <div className="App">
+          <img className="imagem" src={docimg} alt="" />
+          <div className="PageFunc">
+            <Consulta className="SearchBar" />
+            <Form className="itemOne" />
+          </div>
+        </div>
+      )}
     </div>
   );
 }

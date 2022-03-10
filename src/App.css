@@ -1,38 +1,90 @@
 .App {
-  text-align: center;
+  display: flex;
+  background-color: #002d62;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.HomePage{
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: #002d62;
+  height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.HomeImage {
+  max-width: 60vw;
+  max-height: 60%;
+  justify-content: center;
+}
+
+.PageFunc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10vw;
+}
+
+.imagem {
+  max-width: 60vw;
+  height: 100%;
+  justify-content: center;
+}
+
+.PaperBg {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.TextInput {
+  padding: 10px;
+}
+
+.SearchBar {
+  margin-bottom: 40%;
+  margin-left: 5%;
+}
+
+.WhiteBg{
+  background-color: white;
+}
+
+.itemOne {
+  max-width: 50vw;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.label {
+  display: block;
+  font-size: larger;
   color: white;
+  padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.messages {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error {
+  display: block;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+
+.success {
+  display: block;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
 }
